@@ -251,8 +251,27 @@ h4, .h4 {font-size: 1.25em;font-weight: 600;}
     text-align: center;
 }
 
+/*---------animation------------------*/
+
+.hero-feature{overflow:hidden}.hero-feature:hover .tm-checked{opacity:1}.hero-feature:hover .scale{-webkit-transform:scale(1);transform:scale(1)}.hero-feature:hover .tm-numb-point{opacity:0}.hero-feature:hover .eye-line{opacity:1}.hero-feature:hover .eye{opacity:0}.hero-feature:hover .i--delayfl{-webkit-animation:opacity 1s;animation:opacity 1s;-webkit-animation-iteration-count:3;animation-iteration-count:3;-webkit-animation-delay:.10s;animation-delay:.10s}.hero-feature:hover .i--delayfl-03{-webkit-animation:opacity 1s;animation:opacity 1s;-webkit-animation-iteration-count:3;animation-iteration-count:3;-webkit-animation-delay:.30s;animation-delay:.30s}.hero-feature:hover .i--delayfl-04{-webkit-animation:opacity 1s;animation:opacity 1s;-webkit-animation-iteration-count:3;animation-iteration-count:3;-webkit-animation-delay:.50s;animation-delay:.50s}.hero-feature:hover .i--pulse{-webkit-animation:opacity 1s;animation:opacity 1s;-webkit-animation-delay:.10s;animation-delay:.10s;-webkit-animation-iteration-count:2;animation-iteration-count:2}.hero-feature:hover .i--pulse-03{-webkit-animation:opacity 1s;animation:opacity 1s;-webkit-animation-delay:.30s;animation-delay:.30s;-webkit-animation-iteration-count:2;animation-iteration-count:2}.hero-feature:hover .i--pulse-04{-webkit-animation:opacity 1s;animation:opacity 1s;-webkit-animation-delay:.50s;animation-delay:.50s;-webkit-animation-iteration-count:2;animation-iteration-count:2}.hero-feature:hover .in-circle-status{fill:#98E296}.hero-feature:hover .i-paid-txt{opacity:1}.hero-feature:hover .clock-small-needle{-webkit-transform-origin:30% 4%;transform-origin:30% 4%;-webkit-animation:spin .5s linear;animation:spin .5s linear;-webkit-animation-iteration-count:10;animation-iteration-count:10}@-moz-document url-prefix(){.hero-feature:hover .clock-small-needle{transform:rotate(0);animation:none}}.hero-feature:hover .clock-large-needle{-webkit-transform-origin:30% 4%;transform-origin:30% 4%;-webkit-animation:tick-tac 5s linear;animation:tick-tac 5s linear;-webkit-animation-iteration-count:1;animation-iteration-count:1}.hero-feature:hover .currency-sign-02{-webkit-animation:floatTop02 3s linear;animation:floatTop02 3s linear;-webkit-animation-iteration-count:2;animation-iteration-count:2}.hero-feature:hover .currency-sign-03{-webkit-animation:floatTop03 3.5s linear;animation:floatTop03 3.5s linear;-webkit-animation-iteration-count:2;animation-iteration-count:2}.hero-feature:hover .currency-sign-07{-webkit-animation:floatTop07 2.6s linear;animation:floatTop07 2.6s linear;-webkit-animation-iteration-count:2;animation-iteration-count:2}.hero-feature:hover .circle-bg{-webkit-animation:bubbleUp 1s;animation:bubbleUp 1s;-webkit-animation-iteration-count:2;animation-iteration-count:2;height:12px;width:12px}.hero-feature:hover .circle-bg:after{-webkit-animation:opacity .5s linear;animation:opacity .5s linear;content:"";background:url("images/check-mark@2x.png") no-repeat;background-size:12px;position:absolute;top:-1px;left:1px;height:12px;width:12px}.hero-feature:hover .bg-line-02,.hero-feature:hover .bg-line-04,.hero-feature:hover .bg-line-06{-webkit-animation:floatLeft 3s linear;animation:floatLeft 3s linear;-webkit-animation-iteration-count:1;animation-iteration-count:1;z-index:1}.hero-feature:hover .bg-line-01,.hero-feature:hover .bg-line-03,.hero-feature:hover .bg-line-05{-webkit-animation:floatRight 3s linear;animation:floatRight 3s linear;-webkit-animation-iteration-count:1;animation-iteration-count:1;z-index:1}
+
+/*-----------------------------------------------------------*/
 
 
+.btn-primary, .btn-selected, a.btn-primary, a.btn-selected {
+    background-color: #3F9BF8;
+    color: #fff;
+}
+.btn {
+    font-size: 1.25em;
+    font-weight: 600;
+    padding: 0.5em 2em 0.55em;
+    color: #202528;
+    border: 1px solid #202528;
+    background-color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
 
 
 
