@@ -273,6 +273,194 @@ h4, .h4 {font-size: 1.25em;font-weight: 600;}
     border-radius: 5px;
 }
 
+.max45 {
+    max-width: 720px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.5em;
+    font-weight: 400;
+}
+
+/*------------------------*/
+
+.hero-screen {
+    padding-top: 2em;
+    background: transparent url(./img/deco-icons-hero.svg) no-repeat 50% 50%;
+    background-size: 1610px 250px;
+    background-color: #E9EDF2;
+}
+
+.hero-screen-holder {
+    margin: 0 auto;
+    max-width: 894px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border: 0;
+}
+
+/*-------------------*/
+
+.cloud-selfhosted {padding: 4em 1em 6em;text-align: center;}
+.cloud-selfhosted h2 {font-family: 'Lato', sans-serif;font-size: 2em;}
+.cloud-selfhosted ul li {
+    list-style: none;
+    font-size: 0.95em;
+}
+
+.plans-block {
+    background-color: #fff;
+    margin-top: 3em;
+}
+
+h3, .h3 {font-size: 1.25em; font-weight: 100;font-family: 'Lato', sans-serif;}
+
+.plan>ul {padding: 0 0 1em;}
+
+.btn-small {
+    font-size: 0.75em;
+    padding: .3em 1.25em .4em;
+    font-family: 'Lato', sans-serif;
+}
+
+.plan:first-child {
+    border-bottom: 0;
+    border-right: 1px solid rgba(0,0,0,0.15);
+}
+.plan {padding: 1em 0 1em;}
+
+.pure-u-sm-1-2, .pure-u-sm-12-24 {
+    width: 50%;
+}
+
+/*-----------------------------*/
+
+.ac-customers {
+    text-align: center;
+    padding: 3em 1em;
+    background-color: #E9EDF2;
+    border-top: 1px solid rgba(0,0,0,0.15);
+}
+
+.hero-text {font-size: 1.5em;}
+
+.brand-logos li {
+    display: inline-block;
+    width: 140px;
+    height: 140px;
+    background-image: url(./img/ac-customers-new.svg);
+    background-repeat: no-repeat;
+    background-size: 1120px 140px;
+}
+
+.brand-logos .logo-1 {background-position: 0 0;}
+.brand-logos .logo-2 {background-position: -140px 0;}
+.brand-logos .logo-3 {background-position: -280px 0;}
+.brand-logos .logo-4 {background-position: -420px 0;}
+.brand-logos .logo-5 {background-position: -560px 0;}
+.brand-logos .logo-6 {background-position: -700px 0;}
+.brand-logos .logo-7 {background-position: -840px 0;}
+.brand-logos .logo-8 {background-position: -980px 0;}
+
+.ac-customers h2 {font-family: 'Lato', sans-serif; font-size: 2em;}
+
+/*------------------------------------*/
+
+.register-home-page {
+    background-color: #fff;
+    padding-bottom: 4em;
+    border-top: 1px solid rgba(0,0,0,0.15);
+}
+
+.page-top {padding-top: 1em;}
+
+.register-form, .trial-form-compact {
+    background-color: transparent;
+    max-width: 420px;
+    margin: 0 auto;
+    padding: 12px;
+    padding-top: 0;
+}
+
+fieldset {
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+label {
+    display: block;
+    margin-bottom: .15em;
+}
+
+.form-hint-error {
+    visibility: hidden;
+    color: red;
+    font-weight: 600;
+}
+.form-hint {
+    margin: .25em 0 0 0;
+    font-size: .8125em;
+    font-family: adelle-sans,"Helvetica Neue",Arial,sans-serif;
+}
+.register-form input[type="email"], .trial-form-compact input[type="email"] {
+    padding: 0 1em;
+    height: 3em;
+}
+
+.register-form button, .trial-form-compact button {
+    display: block;
+    margin: 1em auto;
+    width: 100%;
+    height: 3em;
+}
+
+.or_separator {
+    position: relative;
+    font-size: 14px;
+    z-index: 1;
+    overflow: hidden;
+    text-align: center;
+}
+
+.register-form #customBtn, .trial-form-compact #customBtn {
+    border: 1px solid #727C8E;
+    width: 100%;
+    border-radius: 4px;
+    height: 3em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background: white;
+}
+
+div#customBtn.customGPlusSignIn, div#customBtn2.customGPlusSignIn {
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: 3em;
+}
+
+.register-form #customBtn span.icon, .trial-form-compact #customBtn span.icon {
+    display: inline-block;
+    vertical-align: middle;
+    border-right: 1px solid #727C8E;
+    height: 100%;
+}
+
+.register-form #customBtn span.buttonText, .trial-form-compact #customBtn span.buttonText {
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+
+
 
 
 
