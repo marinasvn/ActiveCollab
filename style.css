@@ -406,7 +406,40 @@ h4, .h4 {font-size: 1.25em;font-weight: 600;}
     40%{-webkit-transform:scale(1);transform:scale(1)}
 }
 
-@-webkit-keyframes opacity{0%{opacity:0}100%{opacity:1}}@keyframes opacity{0%{opacity:0}100%{opacity:1}}@-webkit-keyframes spin{0%{-webkit-transform:rotate(0);transform:rotate(0)}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}@keyframes spin{0%{-webkit-transform:rotate(0);transform:rotate(0)}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}@-webkit-keyframes tick-tac{0%{-webkit-transform:rotate(138deg);transform:rotate(138deg)}50%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}100%{-webkit-transform:rotate(498deg);transform:rotate(498deg)}}@keyframes tick-tac{0%{-webkit-transform:rotate(138deg);transform:rotate(138deg)}50%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}100%{-webkit-transform:rotate(498deg);transform:rotate(498deg)}}@-webkit-keyframes bubbleUp{0%{-webkit-transform:scale(1);transform:scale(1)}25%{-webkit-transform:scale(1);transform:scale(1)}50%{-webkit-transform:scale(1.3);transform:scale(1.3)}75%{-webkit-transform:scale(1);transform:scale(1)}100%{-webkit-transform:scale(1);transform:scale(1)}}@keyframes bubbleUp{0%{-webkit-transform:scale(1);transform:scale(1)}25%{-webkit-transform:scale(1);transform:scale(1)}50%{-webkit-transform:scale(1.3);transform:scale(1.3)}75%{-webkit-transform:scale(1);transform:scale(1)}100%{-webkit-transform:scale(1);transform:scale(1)}}@-webkit-keyframes floatTop03{0%{top:34px}100%{top:-100px}}@keyframes floatTop03{0%{top:34px}100%{top:-100px}}@-webkit-keyframes floatTop02{0%{top:0}100%{top:-100px}}@keyframes floatTop02{0%{top:0}100%{top:-100px}}@-webkit-keyframes floatTop07{0%{top:-30px}100%{top:-250px}}@keyframes floatTop07{0%{top:-30px}100%{top:-250px}}@-webkit-keyframes floatLeft{0%{}100%{left:250px}}@keyframes floatLeft{0%{}100%{left:250px}}@-webkit-keyframes floatRight{0%{}100%{left:-250px}}@keyframes floatRight{0%{}100%{left:-250px}}.
+@-webkit-keyframes opacity {
+    0%{opacity:0;}
+    100%{opacity:1;}
+}
+@keyframes opacity {
+    0%{opacity:0;}
+    100%{opacity:1;}
+}
+@-webkit-keyframes spin {
+    0%{-webkit-transform:rotate(0);transform:rotate(0);}
+    100%{-webkit-transform:rotate(360deg);transform:rotate(360deg);}
+}
+@keyframes spin {
+    0%{-webkit-transform:rotate(0);transform:rotate(0);}
+    100%{-webkit-transform:rotate(360deg);transform:rotate(360deg);}
+}
+@-webkit-keyframes tick-tac {
+    0%{-webkit-transform:rotate(138deg);transform:rotate(138deg);}
+    50%{-webkit-transform:rotate(360deg);transform:rotate(360deg);}
+    100%{-webkit-transform:rotate(498deg);transform:rotate(498deg);}
+}
+@keyframes tick-tac {
+    0%{-webkit-transform:rotate(138deg);transform:rotate(138deg);}
+    50%{-webkit-transform:rotate(360deg);transform:rotate(360deg);}
+    100%{-webkit-transform:rotate(498deg);transform:rotate(498deg);}
+}
+@-webkit-keyframes bubbleUp {
+    0%{-webkit-transform:scale(1);transform:scale(1);}
+    25%{-webkit-transform:scale(1);transform:scale(1);}
+    50%{-webkit-transform:scale(1.3);transform:scale(1.3);}
+    75%{-webkit-transform:scale(1);transform:scale(1);}
+    100%{-webkit-transform:scale(1);transform:scale(1);}
+}
+@keyframes bubbleUp{0%{-webkit-transform:scale(1);transform:scale(1)}25%{-webkit-transform:scale(1);transform:scale(1)}50%{-webkit-transform:scale(1.3);transform:scale(1.3)}75%{-webkit-transform:scale(1);transform:scale(1)}100%{-webkit-transform:scale(1);transform:scale(1)}}@-webkit-keyframes floatTop03{0%{top:34px}100%{top:-100px}}@keyframes floatTop03{0%{top:34px}100%{top:-100px}}@-webkit-keyframes floatTop02{0%{top:0}100%{top:-100px}}@keyframes floatTop02{0%{top:0}100%{top:-100px}}@-webkit-keyframes floatTop07{0%{top:-30px}100%{top:-250px}}@keyframes floatTop07{0%{top:-30px}100%{top:-250px}}@-webkit-keyframes floatLeft{0%{}100%{left:250px}}@keyframes floatLeft{0%{}100%{left:250px}}@-webkit-keyframes floatRight{0%{}100%{left:-250px}}@keyframes floatRight{0%{}100%{left:-250px}}.
 /*-----------------------------------------------------------*/
 
 
